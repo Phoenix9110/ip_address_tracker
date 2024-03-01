@@ -1,5 +1,6 @@
 ---
-import Arrow from '../icons/Arrow.astro'
+import PanelInformation from '../components/PanelInformation.vue'
+import SearchBar from '../components/searchBar.vue';
 ---
 
 <html lang="en">
@@ -14,12 +15,8 @@ import Arrow from '../icons/Arrow.astro'
 	<body>
 		<section class="top_section">
 			<h1>IP Address Tracker</h1>
-			<section class="search_bar">
-				<input type="text" id="search_bar">
-				<button id="search_button">
-					<Arrow/>
-				</button>
-			</section>
+			<SearchBar client:load/>
+			<PanelInformation client:load/>
 		</section>
 	</body>
 </html>

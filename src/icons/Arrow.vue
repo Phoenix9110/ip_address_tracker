@@ -1,0 +1,19 @@
+<template>
+  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="2" d="M2 1l6 6-6 6"/></svg>
+</template>
+
+<script>
+  export default {
+    name: 'ArrowIcon'
+  }
+</script>
+
+<style scoped>
+path {
+  fill: none;
+}
+
+.starred path{
+  fill: #ffd100;
+}
+</style>
